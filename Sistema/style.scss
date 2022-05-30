@@ -58,13 +58,14 @@ button {
 .illustration {
   // background: #08a742;
   display: flex;
-  padding-left: 2rem;
+  padding: 2rem;
   height: 100%;
   width: 100%;
 
   img {
-    animation: bounce 3s infinite linear;
-    width: 100%;
+    animation: bounce 4s infinite linear;
+    width: 80%;
+    margin: 0 auto;
     // max-width: 550px;
   }
 }
@@ -74,7 +75,7 @@ button {
     transform: translateY(0);
   }
   50%{
-    transform: translateY(-12px);
+    transform: translateY(-8px);
   }
   100%{
     transform: translateY(0);
@@ -116,7 +117,7 @@ button {
     padding: 2rem;
 
     h2 {
-      font-size: 3.5rem;
+      font-size: 2.25rem;
       font-weight: 300;
       margin-bottom: 2rem;
     }

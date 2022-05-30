@@ -65,15 +65,16 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 2rem;
+  padding: 2rem;
   height: 100%;
   width: 100%;
 }
 
 .illustration img {
-  -webkit-animation: bounce 3s infinite linear;
-          animation: bounce 3s infinite linear;
-  width: 100%;
+  -webkit-animation: bounce 4s infinite linear;
+          animation: bounce 4s infinite linear;
+  width: 80%;
+  margin: 0 auto;
 }
 
 @-webkit-keyframes bounce {
@@ -82,8 +83,8 @@ button {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -97,8 +98,8 @@ button {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-12px);
-            transform: translateY(-12px);
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -159,7 +160,7 @@ button {
 }
 
 .login-form-wrapper form h2 {
-  font-size: 3.5rem;
+  font-size: 2.25rem;
   font-weight: 300;
   margin-bottom: 2rem;
 }
