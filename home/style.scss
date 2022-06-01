@@ -90,10 +90,6 @@ button {
   align-items: center;
   justify-content: center;
 
-  // background: rgba(255, 255, 255, 1);
-  // backdrop-filter: blur(32px);
-  // box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.16);
-
   form {
     width: 100%;
     max-width: 600px;
@@ -101,7 +97,7 @@ button {
     flex-direction: column;
 
     h2 {
-      font-size: 1.9rem;
+      font-size: 1.8rem;
       font-weight: 500;
       margin-bottom: 2rem;
     }
@@ -110,7 +106,7 @@ button {
       width: 100%;
       height: 3rem;
       background: #08a742;
-      font-size: 1rem;
+      font-size: .9rem;
       border: none;
       color: #fff;
       font-weight: 400;
@@ -155,7 +151,7 @@ button {
   }
 
   label{
-    font-size: .9rem;
+    font-size: .85rem;
   }
 
   input {
@@ -163,7 +159,7 @@ button {
     border: 1px solid #ccc;
     height: 3rem;
     padding-left: 1.25rem;
-    font-size: .9rem;
+    font-size: .85rem;
 
     &:focus {
       outline: 2px solid #015cb9;
@@ -198,7 +194,7 @@ button {
 
 .forget-password {
   color: #015cb9;
-  font-size: .9rem;
+  font-size: .85rem;
 }
 
 .auth-header {
@@ -411,7 +407,7 @@ button {
 
   .footer-section-title {
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     text-transform: uppercase;
     border-left: 3px solid #49b85b;
     padding: 8px 15px;
@@ -429,7 +425,7 @@ button {
     padding: 10px 5px;
     color: rgb(192, 192, 192);
     letter-spacing: 1px;
-    font-size: 12.5px;
+    font-size: 11.5px;
     line-height: 25px;
   }
 
@@ -439,6 +435,12 @@ button {
     border-radius: 2rem;
     text-decoration: none;
     color: #fff;
+    transition: .2s;
+    font-size: .9rem;
+
+    &:hover{
+      filter: brightness(.875);
+    }
   }
 }
 
@@ -447,7 +449,7 @@ button {
   flex-direction: column;
 
   span {
-    font-size: 13px;
+    font-size: 12px;
     margin: 1.5rem 0;
     height: 3rem;
     display: flex;
@@ -466,7 +468,7 @@ button {
       display: flex;
       align-items: center;
       gap: 0.75rem;
-      font-size: 12px;
+      font-size: 11px;
       flex-wrap: wrap;
 
       ul {
