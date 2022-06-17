@@ -21,7 +21,7 @@ body {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #015cb9;
-  background: #55DB6C;
+  background: #55db6c;
   overflow-x: hidden;
   background-image: url("images/circuit-board.svg");
 }
@@ -106,12 +106,6 @@ button {
   }
 }
 
-@media (max-width: 768px) {
-  .illustration {
-    display: none;
-  }
-}
-
 .login-form-wrapper {
   width: 100%;
   padding: 2rem;
@@ -146,6 +140,7 @@ button {
   -webkit-box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.16);
   width: 100%;
+  min-width: 350px;
   max-width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +248,7 @@ button {
 }
 
 .header-logo img {
-  background: rgba(63, 63, 63, 0.5);
+  background: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: blur(2px);
           backdrop-filter: blur(2px);
   border-radius: 1rem;
@@ -416,5 +411,20 @@ button {
   font-size: 1.1rem;
   color: #fff;
   margin: auto 0;
+}
+
+@media (max-width: 1024px) {
+  .login-form-wrapper .wrapper {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-form-wrapper {
+    padding: 1rem;
+  }
+  .illustration {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
