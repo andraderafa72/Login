@@ -253,9 +253,9 @@ button {
 }
 
 .header-logo img {
-  background: rgba(0, 0, 0, 0.35);
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  background: rgba(63, 63, 63, 0.5);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   border-radius: 1rem;
   padding: 0.5rem;
   height: 100px;
